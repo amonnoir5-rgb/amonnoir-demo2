@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(100deg,   dodgerblue, black);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.log{
+    background: linear-gradient(135deg, red,orange, red);
+    box-shadow: 2px 2px 25px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.title{
+    width: 150px;
+    margin-right: 10px;
+}
+.title input{
+    padding: 7px 1px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+.btnx{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: none;
+}
+.corner ul{
+    display: none;
+    margin-left: -65px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.282));
+}
+.corner ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 6px;
+    font-size: 20px;
+}
+.corner button{
+    padding: 7px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.corner ul a{
+    text-decoration: none;
+    color: white;
+}
+.corner ul a:active{
+    text-decoration: underline;
+    color: red;
+}
+main{
+    margin-top: 20px;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.bt1{
+    background: linear-gradient(135deg, white, black, white);
+    padding: 10px 60px;
+    transition: transform 0.3s;
+}
+.bt2{
+    background: linear-gradient(135deg, blue, rgb(0, 255, 0));
+    padding: 3px 1px;
+    width: 90px;
+    transition: transform 0.3s;
+}
+.bt3{
+    background: linear-gradient(135deg, green, dodgerblue);
+    padding: 3px 1px;
+    width: 90px;
+    transition: transform 0.3s;
+}
+main button{
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+main section{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding: 5px;
+}
+.bx1{
+    margin-left: -26px;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, black, skyblue);
+    transition: transform 0.3s;
+}
+.bx2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, black, skyblue);
+    transition: transform 0.3s;
+}
+.bx1:active,
+.bx2:active{
+    transform: translateY(3px);
+    border: 1px solid greenyellow;
+    box-shadow: 1px 1px 15px black;
+}
+.bt1:active,
+.bt2:active,
+.bt3:active{
+    transform: translateY(5px);
+}
+.main2{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box1{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 8;
+    border-radius: 10px;
+    height: 100px;
+    grid-row: span 5;
+}
+.box2{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 4;
+    border-radius: 10px;
+    grid-row: span 17;
+}
+.box3{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 4;
+    border-radius: 10px;
+    grid-row: span 12;
+}
+.box4{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 4;
+    border-radius: 10px;
+    grid-row: span 12;
+}
+.box5{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 6;
+    border-radius: 10px;
+    grid-row: span 12;
+}
+.box6{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 6;
+    border-radius: 10px;
+    grid-row: span 6;
+}
+.box7{
+    background-color: grey;
+    padding: 1rem;
+    grid-column: span 6;
+    border-radius: 10px;
+    grid-row: span 6;
+}
+.main3{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    row-gap: 10px;
+}
+.vx1{
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.vn1{
+    background-color: green;
+    padding: 1rem;
+}
+.vn2{
+    background-color: green;
+    padding: 1rem;
+}
+.vn3{
+    background-color: green;
+    padding: 1rem;
+}
+.vn4{
+    background-color: green;
+    padding: 1rem;
+}
+.vn5{
+    background-color: green;
+    padding: 1rem;
+}
+.vn6{
+    background-color: green;
+    padding: 1rem;
+}
+.vn7{
+    background-color: green;
+    padding: 1rem;
+}
+.vn8{
+    background-color: green;
+    padding: 1rem;
+}
+.vn9{
+    background-color: green;
+    padding: 1rem;
+}
+footer{
+    padding: 10px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+}
